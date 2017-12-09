@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "485096241275",
+    "firebase_url": "https://geoprofesorv2.firebaseio.com",
+    "project_id": "geoprofesorv2",
+    "storage_bucket": "geoprofesorv2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485096241275:android:90a59cc9ceba4dc0",
+        "android_client_info": {
+          "package_name": "com.example.geoprofesor_v2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485096241275-bga4mscdsnckenqe9lo8ov45kiui8k48.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.geoprofesor_v2",
+            "certificate_hash": "2b5f811360422a8acac3b178a87e95f5dd5750d0"
+          }
+        },
+        {
+          "client_id": "485096241275-phba8m1hqpv1ph1hg1ef5ber9e28k3qh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzMeOviJKQ-xRRk8GABAEJ8aUkB8wiGj4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485096241275-phba8m1hqpv1ph1hg1ef5ber9e28k3qh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

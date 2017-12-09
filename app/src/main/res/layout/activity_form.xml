@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlanco"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Llena los campos correctamente y comienza esta aventura con tus alumnos :D"
+            android:textAlignment="center"
+            android:textColor="@color/colorNegro"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/edtuser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Correo: @gmail o @hotmail"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:textColor="@color/colorNegro"
+            android:textColorHint="@color/colorGris"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edtpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Contraseña de 8 caracteres"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="@color/colorNegro"
+            android:textColorHint="@color/colorGris"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@color/colorVerde"
+            android:onClick="onClickButtonRegistrar"
+            android:text="Registrar" />
+
+    </LinearLayout>
+</LinearLayout>
